@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
     <style>
-        body{                        /*Zdroje: Discord server Matěje Cajthamla,   https://api-ssps.cajthaml.eu/file/2021-2022/2-wba/presentations/23.html,     https://fonts.google.com/*/
+        body{                        /*Zdroje: Discord server Matěje Cajthamla,   https://api-ssps.cajthaml.eu/file/2021-2022/2-wba/presentations/23.html,     https://fonts.google.com/                         odkaz na GitHub:  https://laambert.github.io/responsive/            */
             width: 100vw;
             height: 100vh;
 
@@ -115,7 +115,7 @@
 
             border-radius: 5px;
 
-            font-size: 110%;
+            font-size: 100%;
             font-weight: 500;
         }
 
@@ -167,6 +167,49 @@
             justify-content: center;
         }
 
+        @media (max-width: 500px){
+	
+    .background{
+
+        height: 90%;
+        width: 80%;
+     }
+
+    .block{
+        grid-template-rows: 3fr 0.001fr 3fr 3fr 3fr 3fr 3fr;
+     }
+
+    .monitor{
+        font-size: 110%;
+     }
+
+    .button{
+        font-size: 90%;
+     }
+    }
+
+        @media (max-width: 920px){
+	
+    .background{
+
+        height: 70%;
+        width: 60%;
+    }
+
+    .block{
+        grid-template-rows: 3fr 0.001fr 3fr 3fr 3fr 3fr 3fr;
+    }
+
+    .monitor{
+        font-size: 110%;
+    }
+
+    .button{
+        font-size: 90%;
+    }
+}
+
+        
     </style>
     <title>Document</title>
 </head>
